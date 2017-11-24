@@ -39,7 +39,7 @@ An example pair of training and testing files are provided in `sample_data`. Tho
 A decision tree or random forest will be trained on `training_file` and evaluated on `test_file`. The following evaluation information will be printed to the screen:
 
 - Confusion matrix
-  * In i-th line, the j-th numbers are the number of data points in test where the actual label is i and predicted label is j.
+  * In i-th line, the j-th number is the number of data points in test where the actual label is i and predicted label is j.
 - Overall class prediction accuracy
 - For each class:
   * Sensitivity
