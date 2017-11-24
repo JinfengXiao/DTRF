@@ -37,6 +37,7 @@ def read_input(file, train = True):
         return (n_attr, attr_n_level, n_label, labels, features)
     else:
         return (labels, features)
+
 # Calculate Gini Index. "attr" is the attribute under consideration. attr = 0 if considering no partition.
 def get_gini_index(n_attr, attr_n_level, n_label, labels, features, attr):
     if attr == 0:

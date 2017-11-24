@@ -15,7 +15,6 @@ for itree in range(ntree):
         bootstrap_labels.append(train_labels[bootstrap_index])
         bootstrap_features.append(train_features[bootstrap_index])
     forest.append(build_tree(n_attr, deepcopy(attr_n_level), n_label, deepcopy(bootstrap_labels), deepcopy(bootstrap_features), deepcopy(used_attr), True))
-    #forest.append(build_tree(n_attr, deepcopy(attr_n_level), n_label, deepcopy(train_labels), deepcopy(train_features), deepcopy(used_attr), True))
 
 pred = predict_labels_forest(deepcopy(forest), deepcopy(test_features), n_label)
 CM = get_CM(deepcopy(pred), deepcopy(test_labels), n_label)
