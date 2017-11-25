@@ -1,7 +1,7 @@
 # DTRF
-This repo contains Jinfeng Xiao's **Python 2.7** implementation of **decision trees** and **random forests** for binary or multi-class classfication. Currently the code works with **categorical attributes** only.
+This repo contains a **Python 2.7** implementation of **decision trees** and **random forests** for binary or multi-class classfication. Currently the code works with **categorical attributes** only.
 
-This repo was part of Jinfeng's solution to a programming assignment in 2016. You are welcome to use it in accordance with the license agreement and academic integrity.
+This repo was part of the author's solution to a programming assignment in 2016. You are welcome to use it in accordance with the license agreement and academic integrity.
 
 ## Usage
 
